@@ -2,7 +2,7 @@
 
 | **#** | **Sprints**         |
 | ----- | ---------------- |
-| 12.05.2020 | Install IntelliJ IDEA & First App Whoupwhoup |
+| 12.05.2020 | Install IntelliJ IDEA & Create first App Whoupwhoup |
 | 13.05.2020 | learn more super cool stuff
 
 
