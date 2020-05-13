@@ -1,4 +1,8 @@
+import com.sun.jdi.Value;
+
 public class AppMain {
+
+
     public static void main(String[] args){
         String name =" Dude ";
 
@@ -31,7 +35,28 @@ public class AppMain {
         int number2 = 6;
         System.out.println(number1 + number2);
 
+    // methode 1
+        int result2 = CalculationUtils.duplicate(4);
+        printValue(result);
 
+    // methode 2
+        int addResult = CalculationUtils. add(5,result);
+        printValue(addResult);
+        
+        String someString ="some fancy String";
+        boolean fancy = isFancy(someString);
+        System.out.println(fancy);
+    }
+    public static boolean isFancy(String someString) {
+        return someString.contains("fancy");
+    }
 
+    public static void printValue(int value) {
+        System.out.println("result2 "+ value);
+
+        boolean comparison;
+        if (value > 100) comparison = true;
+        else comparison = false;
+        System.out.println(comparison);
     }
 }
