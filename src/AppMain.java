@@ -26,5 +26,12 @@ public class AppMain {
         System.out.println(another);
         boolean last = 6>=7;
         System.out.println(last);
+
+        int number1 = 6;
+        int number2 = 6;
+        System.out.println(number1 + number2);
+
+
+
     }
 }
