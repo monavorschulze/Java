@@ -1,5 +1,3 @@
-import com.sun.jdi.Value;
-
 public class AppMain {
 
 
@@ -35,6 +33,10 @@ public class AppMain {
         int number2 = 6;
         System.out.println(number1 + number2);
 
+        int number3 = 5;
+        int number4 = 5;
+        System.out.println(number3 + number4);
+
     // methode 1
         int result2 = CalculationUtils.duplicate(4);
         printValue(result);
@@ -42,7 +44,8 @@ public class AppMain {
     // methode 2
         int addResult = CalculationUtils. add(5,result);
         printValue(addResult);
-        
+
+
         String someString ="some fancy String";
         boolean fancy = isFancy(someString);
         System.out.println(fancy);
@@ -59,4 +62,7 @@ public class AppMain {
         else comparison = false;
         System.out.println(comparison);
     }
+
+
+
 }
